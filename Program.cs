@@ -43,7 +43,7 @@ namespace Point3D_Class
         static void Main(string[] args)
         {
 
-            { // тестирование обобщенного класса - // точки в 2D 
+            { 
                 var p3 = new Point3D();
                 Console.WriteLine($"Point p3 object with default value: {p3.ToString()}");
                 var p4 = new Point3D(100, 200, 50);
